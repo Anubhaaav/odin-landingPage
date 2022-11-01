@@ -1,5 +1,24 @@
-.container1{
+.header{
+    background-color: #1F2937;
+    color: wheat;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    float: right;
+}
+
+section{
     display: flex;
-    background-color: navy;
-    color: white;
+}
+
+article{
+    flex:1;
 }
