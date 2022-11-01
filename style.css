@@ -1,6 +1,8 @@
 .header{
     background-color: #1F2937;
-    color: wheat;
+    color: white;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -8,12 +10,40 @@ ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
+    color: white;
     overflow: hidden;
 }
 
 li{
     float: right;
+    padding: 14px 16px;
+    margin: 0;
 }
+
+
+
+.container2{
+    display: flex;
+    margin: 36px;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+.sub1 button {
+    color: white;
+    background-color: #3882f6;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 section{
     display: flex;
@@ -21,4 +51,42 @@ section{
 
 article{
     flex:1;
+}
+
+main h2{
+    text-align: center;
+}
+
+main > section{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+
+.images{
+    border: #1F2937;
+}
+
+
+
+
+
+
+
+
+
+
+.promo{
+    background-color: #e5e7eb;
+}
+
+footer{
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    margin: 40px;
+    align-items: center;
 }
